@@ -201,7 +201,7 @@ let questions = [
         choice2: "日本海溝",
         choice3: "千島海溝",
         choice4: "馬里亞納海溝",
-        answer: 1,
+        answer: 4,
     },
     {
         question: "這一題送你，選我?",
