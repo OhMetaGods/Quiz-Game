@@ -92,7 +92,7 @@ let questions = [
         answer: 1,
     },
     {
-        question: "為什麼鳥煮焦糖的時候不能攪拌?",
+        question: "為什麼煮焦糖的時候不能攪拌?",
         choice1: "焦糖會結晶化，產生一粒一粒的塊狀",
         choice2: "攪拌會讓焦糖變更苦",
         choice3: "糖會無法順利融化",
