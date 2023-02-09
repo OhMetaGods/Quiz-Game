@@ -21,9 +21,9 @@ let questions = [
     },
     {
         question: "近年來科學家發現狗可以聞出人類有什麼疾病?",
-        choice1: "阿茲海默症",
+        choice1: "高山症",
         choice2: "癌症",
-        choice3: "慢性病",
+        choice3: "恐高症",
         choice4: "帕金森氏症",
         answer: 2,
     },
@@ -124,11 +124,11 @@ let questions = [
         answer: 3,
     },
     {
-        question: "下面哪一句話可以形容巴納姆效應?",
-        choice1: "你是一個有責任心的人，雖然有時候會想放棄，但還是會堅持",
-        choice2: "吊橋就像戀愛關係，如果一邊沒有穩固好，另一邊就會無法支撐",
-        choice3: "你的人生要由自己去定義",
-        choice4: "在哪跌倒就在哪躺下",
+        question: "下面哪件事情最可以代表巴納姆效應?",
+        choice1: "星座",
+        choice2: "藝術",
+        choice3: "哲學",
+        choice4: "美食",
         answer: 1,
     },
     {
@@ -167,14 +167,54 @@ let questions = [
         question: "下列哪種液體可以代替生理食鹽水，作為點滴液?",
         choice1: "可樂",
         choice2: "氣泡水",
-        choice3: "西瓜汁",
+        choice3: "木瓜牛奶",
         choice4: "椰子水",
         answer: 4,
+    },
+    {
+        question: "美國首都是哪裡?",
+        choice1: "紐約",
+        choice2: "華盛頓",
+        choice3: "曼哈頓",
+        choice4: "加州",
+        answer: 2,
+    },
+    {
+        question: "梵梵喜歡喝什麼飲料?",
+        choice1: "可樂",
+        choice2: "珍珠黑糖牛奶",
+        choice3: "綠茶",
+        choice4: "木瓜牛奶",
+        answer: 4,
+    },
+    {
+        question: "世界最高的山是?",
+        choice1: "安第斯山脈",
+        choice2: "唐古拉山脈",
+        choice3: "珠穆朗瑪峰",
+        choice4: "吉力馬札羅山",
+        answer: 3,
+    },
+    {
+        question: "世界最深的地方是?",
+        choice1: "馬尼拉海溝",
+        choice2: "日本海溝",
+        choice3: "千島海溝",
+        choice4: "馬里亞納海溝",
+        answer: 1,
+    },
+    {
+        question: "這一題送你，選我?",
+        choice1: "我",
+        choice2: "選我",
+        choice3: "你",
+        choice4: "他",
+        answer: 1,
     },
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 20
+const MAX_QUESTIONS = 25
 
 startGame = () => {
     questionCounter = 0
